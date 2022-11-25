@@ -20,7 +20,7 @@ Open the following documentation pages in tabs in your browser:
 - - - -
 
 #### What you should already have:
-- A pleasant editor or IDE; I still use (the now very dead) [atom](https://github.blog/2022-06-08-sunsetting-atom/) as a lightweight general purpose text editor & [Intellij PyCharm Professional](https://www.jetbrains.com/pycharm/) for writing code. 
+- A pleasant editor or IDE; I still use (the now very dead) [atom](https://github.blog/2022-06-08-sunsetting-atom/) as a lightweight general purpose text editor & [Intellij PyCharm](https://www.jetbrains.com/pycharm/) for writing code. 
 - node [recent- v17.2](https://nodejs.org/download/release/v17.2.0/) or [latest](https://nodejs.org/en/download/)
 - [git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
