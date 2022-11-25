@@ -2,7 +2,7 @@
 
 ### Lesson scaffolding for teaching my housemates TypeScript.  
 
-#### Learn how to write and iterate on a command line utility of your own in pure modern TypeScript.
+#### Learn how to write a command line utility of your own in pure modern TypeScript.
 
 
 *Lez write some code!*
