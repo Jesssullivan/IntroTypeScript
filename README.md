@@ -26,11 +26,11 @@ npm install
 ## Setup your TS linter (only if you want to set up eslint yourself)
 # npm init @eslint/config 
 
+# Lint your TS:
+npx eslint src/playground.ts
+
 # Transpile some TS:
 tsc src/playground.ts --outfile pub/playground_bundle.js
-
-# Lint your TS:
-npx eslint pub/playground_bundle.js
 
 # Run your program:
 node pub/playground_bundle.js 
