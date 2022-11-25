@@ -7,7 +7,7 @@
 
 *Lez write some code!*
 
-Open the following doc pages in tabs in your browser:
+Open the following documentation pages in tabs in your browser:
 - [JavaScript Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Text_formatting)
 - [JavaScript Numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates)
 - [JavaScript Indexes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
@@ -15,6 +15,11 @@ Open the following doc pages in tabs in your browser:
 - [JavaScript Globals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 - [tsc Compiler](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 - [eslint Docs](https://typescript-eslint.io/docs/)
+
+
+- - - -
+
+*Setup:*
 
 ```
 # clone this repo:
@@ -35,3 +40,13 @@ tsc src/playground.ts --outfile pub/playground_bundle.js
 # Run your program:
 node pub/playground_bundle.js 
 ```
+
+- - -
+
+*To start, lets write a program that:*
+- prompts the user to type "Hello World"
+  - print some info about the response;
+    - what is the type of user data we can use?
+    - did the user type Hello World?
+    - how many characters were typed?
+    - how many more characters are needed to reach the number 42?
