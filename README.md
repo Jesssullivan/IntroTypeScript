@@ -1,8 +1,10 @@
 # IntroTypeScript
 
-### Lesson scaffolding for teaching my housemates TypeScript.  
+### *Lesson scaffolding to help me teach my housemates TypeScript* 
 
-#### Learn how to write a command line utility of your own in pure modern TypeScript.
+- - - 
+
+Learn how to write a command line utility of your own in pure modern TypeScript.
 
 
 *Lez write some code!*
@@ -56,3 +58,13 @@ node pub/playground_bundle.js
     - did the user type Hello World?
     - how many characters were typed?
     - how many more characters are needed to reach the number 42?
+    
+- - - 
+
+Lesson artefacts to add later: 
+- [ ] Working with Webpack: bundling & tree shaking algorithms 
+- [ ] Build a useful application for the browser: write some programmatic css, understanding the DOM, preform API calls from a client
+- [ ] Build a Chrome plugin
+- [ ] Build a file conversion tool with both a CLI and a neat browser user interface
+- [ ] Build a useful Flask + TypeScript application for mobile phones 
+
