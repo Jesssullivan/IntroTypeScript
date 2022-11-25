@@ -1,0 +1,7 @@
+**/*.js
+**.d.js
+**/.DS_*
+**/*.pyc
+**/__pycache*
+**/*_venv/
+**/node_modules/

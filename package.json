@@ -1,0 +1,22 @@
+{
+  "name": "introtypescript",
+  "version": "1.0.0",
+  "description": "Let's learn TypeScript with Jess",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesssullivan/IntroTypeScript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jesssullivan/IntroTypeScript/issues"
+  },
+  "homepage": "https://github.com/Jesssullivan/IntroTypeScript#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0"
+  }
+}
