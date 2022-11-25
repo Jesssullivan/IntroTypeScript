@@ -5,3 +5,4 @@
 **/__pycache*
 **/*_venv/
 **/node_modules/
+**/.idea
