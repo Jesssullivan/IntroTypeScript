@@ -23,8 +23,8 @@ git clone https://github.com/jesssullivan/IntroTypeScript && cd IntroTypeScript
 # install typescript, node & eslint parser:
 npm install 
 
-# Setup your TS linter:
-npm init @eslint/config 
+## Setup your TS linter (only if you want to set up eslint yourself)
+# npm init @eslint/config 
 
 # Transpile some TS:
 tsc src/playground.ts --outfile pub/playground_bundle.js
