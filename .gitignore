@@ -6,3 +6,5 @@
 **/*_venv/
 **/node_modules/
 .idea
+**/*_bundle.js
+package-lock.json
