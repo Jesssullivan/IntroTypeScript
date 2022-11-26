@@ -6,35 +6,32 @@
 //    - how many characters were typed?
 //    - how many more characters are needed to reach the number 42?
 
-let helloWorldString = "Hello World"
+let helloWorldString = 'Hello World';
 
-// first thing the user will interact with:
-console.log("What do you say? (try, 'Hello World!')")
+// First thing the user will interact with:
+console.log('What do you say? (try, \'Hello World!\')');
 
-// start reading from stdin:
-process.stdin.on("data", (data: string) => {
+// Start reading from stdin:
+process.stdin.on('data', (data: string) => {
+	const response: string = data.toString().toLowerCase();
+	helloWorldString = helloWorldString.toLowerCase();
 
-    const response: string = data.toString().toLowerCase()
+	// What is the type of user data we can use?
+	console.log('Data type: ' + typeof response);
 
-    helloWorldString = helloWorldString.toLowerCase()
+	// Did the user type Hello World?
+	if (RegExp(helloWorldString.split('!')[0]).exec(response.split('!')[0])) {
+		console.log('You did it!  Yay! :)');
+	} else {
+		console.log('You did not write hello world :|');
+	}
 
-    // what is the type of user data we can use?
-    console.log("Data type: " + typeof response)
+	// How many characters were typed?
+	console.log('Character count: ' + (data.length - 1).toString());
 
-    // did the user type Hello World?
-    if (response.split("!")[0].match(helloWorldString.split("!")[0])) {
-        console.log("You did it!  Yay! :)")
-    } else {
-        console.log("You did not write hello world :|")
-    }
+	// How many more characters are needed to reach the number 42?
+	console.log(`It'll take ${42 - (data.length - 1)} characters to reach a total of 42!`);
 
-    // how many characters were typed?
-    console.log("Character count: " + (data.length - 1))
-
-    //how many more characters are needed to reach the number 42?
-    console.log(`It'll take ${42 - (data.length - 1)} characters to reach a total of 42!`)
-
-    // exit our lil stdin process and exit:
-    process.exit()
-
-})
+	// Exit our lil stdin process and exit:
+	process.exit();
+});
