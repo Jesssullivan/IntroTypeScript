@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Let's learn TypeScript with Jess",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc --outdir ./pub/"
   },
   "repository": {
     "type": "git",

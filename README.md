@@ -43,10 +43,10 @@ npm install
 npx eslint src/playground.ts
 
 # Transpile some TS:
-tsc src/playground.ts --outfile pub/playground_bundle.js
+npm run-script tsc src/playground.ts
 
 # Run your program:
-node pub/playground_bundle.js 
+node pub/playground.js 
 ```
 
 - - -
